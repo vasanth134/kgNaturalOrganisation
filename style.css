@@ -169,6 +169,14 @@ header p a:hover {
   font-size: 1rem;
   text-align: center;
   position: relative;
-  top: 130%;
+  top: 120%;
   color: aliceblue;
+}
+
+.empty1{
+  height: 50vh;
+  width: 100vw;
+  background-color: transparent;
+  z-index: -1;
+  position: relative;
 }
