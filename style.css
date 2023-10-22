@@ -181,23 +181,31 @@ header p a:hover {
 
 
  .emptyspace1{
-  height: 25vh;
+  height: 10vh;
   width: 100%;
   position: relative;
   top: 27%;
  }
 
 
-.grid {
-  display: grid;
-  background-color: #fff ;
-  grid-template-columns:  400px auto auto auto;
-  grid-template-rows:  700px auto;
-  align-items: center;
 
-}
-.grid1{
- 
- background-color: #3498db;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query  */
+@media all and (max-width:560px) {
+  .emptyspace1{
+    background-color: black;
+    z-index: -1;
+  }
+} 
