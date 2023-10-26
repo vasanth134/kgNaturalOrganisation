@@ -12,3 +12,13 @@
 .lines{
     background-color: black;
 }
+
+/* media query */
+
+@media all and (max-width:560px) {
+    
+    #grid{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+}
