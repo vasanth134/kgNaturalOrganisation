@@ -9,6 +9,7 @@
     /* align-items: center; */
     top: 40%;
     background-color: rgb(15,15, 15);
+    animation-duration: 2s;
 }
 
 .lines{
@@ -20,15 +21,28 @@
     justify-content: center;
     align-items: center;
     
+    
 }
 .lines img{
         height: 260px;
         width: 380px;
         box-shadow: 0px 20px 20px 0px;
-        position: relative;
-        bottom: 10%;
-        
+        position: absolute;
+        top: 20%;
 }
 .lines h2{
-    display: ;
+    position: absolute;
+    top: 50%;
+    color: aliceblue;
+    font-weight: 900;
+    
+
+}
+.lines p {
+   color: aliceblue ;
+   position: relative;
+   text-align: center;
+   top: 20%;
+   padding-top: 10%;
+   font-size: 16px;
 }
