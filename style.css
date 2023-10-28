@@ -7,7 +7,7 @@ body {
   width: 100%;
   background-color: rgb(15, 15, 15);
   font-family: "Roboto", sans-serif;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; 
 }
 header {
   height: 6.5vh;
@@ -247,7 +247,7 @@ header p a:hover {
   list-style-type: disc;
   position: relative;
   left: 3%;
-  top: 510px;
+  top: 525px;
   width: 400px;
 }
 .copyright{
@@ -255,9 +255,9 @@ header p a:hover {
   position: relative;
   display: flex;
   justify-content:center;
-  bottom: -70%;
+  bottom: -65%;
 }
-.home1{
+.home1  {
   position: relative;
   height: 30px;
   width: 80px;
@@ -267,7 +267,7 @@ border-radius: 30px;
 display: flex;
 justify-content: center;
 align-items: center;
-font-weight: 500;
+font-weight: 600;
 float: right;
 right: 5%;
 top: 450px;
