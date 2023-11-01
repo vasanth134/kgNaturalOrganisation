@@ -5,6 +5,9 @@
 body {
   background-color: rgb(22, 22, 22);
 }
+html{
+  scroll-behavior: smooth;
+}
 
 /* Header  */
 #top {
@@ -134,11 +137,11 @@ body {
   justify-content: center;
   align-items: center;
   column-gap: 30px;
-  
 }
+
 .layer {
   background-color: rgb(37, 37, 37);
-  height: 800px;
+  height: 70%;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
@@ -146,8 +149,9 @@ body {
   border-radius: 10px;
 }
 .layer img {
-  height: 250px;
-  width: 400px;
+  height: 30%;
+  width: 90%;
+  object-fit: contain;
 }
 
 .layer1 {
@@ -168,35 +172,110 @@ body {
     grid-template-columns: repeat(1, 450px);
     grid-template-rows: auto auto auto;
     row-gap: 10px;
-    
   }
   .layer {
-    height: 800px;
+    height: 70%;
   }
 }
 
 /* Last page  */
 
-
-.lastPage{
-  height: 90vh;
+.lastPage {
   width: 100%;
   background-color: black;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
   
 }
 
-.lastHeadLine{
-  color: aliceblue;
-  font-size: 50px;
+.lastHeadLine {
+  color: transparent;
+  font-size: 3rem;
   font-family: "Roboto", sans-serif;
   text-decoration: underline;
   font-weight: bolder;
-
+  padding-left: 30px;
+  background-image: linear-gradient(
+    #c168ee,
+    #ac7eee,
+    #9a90ed,
+    #85a6ed,
+    #74b7ed,
+    #53d8ec
+  );
+  background-clip: text;
+  padding-top: 10%;
 }
 
-.lastContent{
-  color: aliceblue;
+.lastContent {
+  color: transparent;
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  
+  font-size: 1.3rem;
+  padding-left: 30px;
+  line-height: 150%;
+  padding-top: 2%;
+  background-image: linear-gradient(
+    #c168ee,
+    #ac7eee,
+    #9a90ed,
+    #85a6ed,
+    #74b7ed,
+    #53d8ec
+  );
+  background-clip: text;
+}
+
+.team {
+  color: transparent;
+  background-image: linear-gradient(
+    #c168ee,
+    #ac7eee,
+    #9a90ed,
+    #85a6ed,
+    #74b7ed,
+    #53d8ec
+  );
+  background-clip: text;
+  padding-left: 30px;
+
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+ul {
+  color: aliceblue;
+  padding-left: 40px;
+  list-style-type: disc;
+}
+
+.homeBtn{
+  background-color: transparent;
+  height: 100px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: end;
+  border: none;
+  padding-right: 50px;
+  padding-bottom:40px ;
+}
+.btnTop{
+  color: whitesmoke;
+  background-color:gray ;
+  height: 70%;
+  width: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  text-decoration: none;
+
+}
+.btnTop:hover{
+  background-color: black;
+  border:1px solid wheat ;
+  transition: 1s;
 }
