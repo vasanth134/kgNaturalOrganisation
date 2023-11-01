@@ -279,3 +279,11 @@ ul {
   border:1px solid wheat ;
   transition: 1s;
 }
+
+.copyright{
+  color: aliceblue;
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+
