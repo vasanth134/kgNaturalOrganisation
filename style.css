@@ -90,6 +90,7 @@ html{
   height: 550px;
   width: 100%;
   background-color: black;
+  animation-name: slide-in-up;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,6 +117,8 @@ html{
   line-height: 30px;
   padding-top: 3%;
 }
+
+/* quote media query */
 @media all and (max-width: 800px) {
   .quote1 {
     font-size: 40px;
@@ -124,6 +127,16 @@ html{
     font-size: 13px;
   }
 }
+
+/* quote animation  */
+
+@keyframes {
+  animation-name:slide in up{
+    
+  }
+  }
+ 
+
 
 /* Second page  */
 
