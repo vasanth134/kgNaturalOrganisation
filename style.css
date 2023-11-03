@@ -5,7 +5,7 @@
 body {
   background-color: rgb(22, 22, 22);
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -90,11 +90,12 @@ html{
   height: 550px;
   width: 100%;
   background-color: black;
-  animation-name: slide-in-up;
+  animation-name: slideup;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation-duration: 1.5s;
 }
 .quote1 {
   color: aliceblue;
@@ -130,13 +131,14 @@ html{
 
 /* quote animation  */
 
-/* @keyframes {
-  animation-name:slide in up{
-    
+@keyframes slideup {
+  from {
+    transform: translateY(400px);
+  }
+  to {
+    transform: translateY(0px);
   }
 }
-  */
-
 
 /* Second page  */
 
@@ -199,7 +201,6 @@ html{
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 .lastHeadLine {
@@ -262,7 +263,7 @@ ul {
   list-style-type: disc;
 }
 
-.homeBtn{
+.homeBtn {
   background-color: transparent;
   height: 100px;
   width: 100%;
@@ -270,11 +271,11 @@ ul {
   justify-content: end;
   border: none;
   padding-right: 50px;
-  padding-bottom:40px ;
+  padding-bottom: 40px;
 }
-.btnTop{
+.btnTop {
   color: whitesmoke;
-  background-color:gray ;
+  background-color: gray;
   height: 70%;
   width: 6%;
   display: flex;
@@ -285,22 +286,20 @@ ul {
   border-top-right-radius: 100px;
   border-bottom-left-radius: 100px;
   text-decoration: none;
-
 }
-.btnTop:hover{
+.btnTop:hover {
   background-color: black;
-  border:1px solid wheat ;
+  border: 1px solid wheat;
   transition: 1s;
 }
 
 /* Copy right */
 
-.copyright{
+.copyright {
   color: aliceblue;
   text-align: center;
   padding-top: 4%;
   padding-bottom: 2%;
 }
-
 
 /* The End  */
