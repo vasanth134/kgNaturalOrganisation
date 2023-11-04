@@ -3,19 +3,26 @@
     padding: 0;
 }
 
-body{
-  background-color: rgb(22, 22, 22);
-  height: 100vh;
+.background{
+  height: 150vh;
+  width: 100vw;
+  background-color: aqua;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10%;
 }
-
-.background{
-  height: 130%;
-  width:45%;
+.formBackground{
+  height: 120vh;
+  max-width: 690px;
+  width: 100%;
   background-color: aliceblue;
-  font-family: Lucida , sans-serif;
-  
+  font-family: Lucida Grande, sans-serif;
+
+}
+h2{
+  margin-left: 30px;
+  margin-top: 50px;
+  height: 50px;
+  width: 90%;
+  border-bottom: 1px solid black;
 }
