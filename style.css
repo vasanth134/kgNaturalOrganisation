@@ -167,12 +167,14 @@ html {
   height: 30%;
   width: 90%;
   object-fit: contain;
+  border-radius: 10px 10px 10px 10px  ;
 }
 
 .layer1 {
   color: aliceblue;
   padding-top: 15px;
   font-family: "Roboto", sans-serif;
+  z-index: 2;
 }
 .layer2 {
   color: aliceblue;
@@ -180,6 +182,21 @@ html {
   padding-top: 6%;
   font-weight: bold;
   font-size: 15px;
+}
+
+.layer img:hover{
+  /* transform: scale(1.2); */
+  transform: translate(0 ,70px);
+  /* transition: opacity 0.7s, transform 0.3s; */
+  border-radius: 100px 100px 100px 100px ;
+  transition: 1s;
+  
+  transition-delay: 100ms;
+
+  opacity :60% ; 
+  /* transform: translate(0px,70px); */
+  /* transition-duration: 1s; */
+  
 }
 
 @media (max-width: 1400px) {
@@ -207,7 +224,7 @@ html {
   color: transparent;
   font-size: 3rem;
   font-family: "Roboto", sans-serif;
-  text-decoration: underline;
+  text-decoration: underline ;
   font-weight: bolder;
   padding-left: 30px;
   background-image: linear-gradient(
@@ -291,6 +308,7 @@ ul {
   background-color: black;
   border: 1px solid wheat;
   transition: 1s;
+  
 }
 
 /* Copy right */
