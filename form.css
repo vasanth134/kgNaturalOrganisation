@@ -18,6 +18,7 @@
   background-color: black;
   font-family: Lucida Grande, sans-serif;
   box-shadow: 0px 0px 10px 0px white;
+  
 }
 h2 {
   margin-left: 30px;
@@ -31,6 +32,7 @@ h2 {
   #85a6ed,
   #74b7ed,
   #53d8ec);
+  font-size: 33px;
   color: transparent;
   background-clip: text;
   text-align: center;
@@ -38,4 +40,34 @@ h2 {
 }
 /* Form content  */
 
+.name{
+  color: #74b7ed;
+  margin-left: 30px;
+  margin-top: 40px;
+  display: grid;
+  row-gap: 5px;
 
+}
+label{
+  font-weight: bolder;
+  font-size: 23px;
+  color: #74b7ed;
+}
+
+input{
+  height: 25px;
+  width: 50%;
+  font-size: 20px;
+  text-align: center;
+  font-weight:  bold;
+  text-transform: capitalize;
+  font-family: Lucida Grande, sans-serif;
+}
+
+.number{
+  margin-left: 30px;
+  margin-top: 50px;
+  display: grid;
+    row-gap: 5px;
+
+}
