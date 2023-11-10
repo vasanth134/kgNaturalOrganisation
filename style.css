@@ -59,7 +59,7 @@ html {
 
 /* Contribution button  */
 
-.button {
+.butn{
   height: 100px;
   width: 100%;
   background-color: transparent;
@@ -207,6 +207,20 @@ html {
   .layer {
     height: 70%;
   }
+
+  .layer img:hover{
+    /* transform: scale(1.2); */
+    transform: translate(0 ,20px);
+    /* transition: opacity 0.7s, transform 0.3s; */
+    border-radius: 100px 100px 100px 100px ;
+    transition: 1s;
+    transition-delay: 100ms;
+    opacity :60% ; 
+    /* transform: translate(0px,70px); */
+    /* transition-duration: 1s; */
+    
+  }
+
 }
 
 /* Last page  */
@@ -235,6 +249,8 @@ html {
     #74b7ed,
     #53d8ec
   );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-clip: text;
   padding-top: 10%;
 }
@@ -254,6 +270,8 @@ html {
     #74b7ed,
     #53d8ec
   );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
@@ -267,6 +285,8 @@ html {
     #74b7ed,
     #53d8ec
   );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-clip: text;
   padding-left: 30px;
 
