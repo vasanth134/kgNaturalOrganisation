@@ -319,6 +319,7 @@ ul {
   border-bottom-left-radius: 100px;
   text-decoration: none;
 }
+}
 .btnTop:hover {
   background-color: black;
   border: 1px solid wheat;
