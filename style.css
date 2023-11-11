@@ -319,9 +319,9 @@ ul {
   border-bottom-left-radius: 100px;
   text-decoration: none;
 }
-}
+
 .btnTop:hover {
-  background-color: black;
+  background-color: darkblue;
   border: 1px solid wheat;
   transition: 1s;
 }
