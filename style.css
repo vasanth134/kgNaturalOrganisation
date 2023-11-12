@@ -321,7 +321,7 @@ ul {
 }
 
 .btnTop:hover {
-  background-color: darkblue;
+  background-color: black;
   border: 1px solid wheat;
   transition: 1s;
 }
